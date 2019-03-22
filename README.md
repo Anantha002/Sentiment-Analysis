@@ -1,4 +1,4 @@
-#About Project
+About Project
 
 This project evaluates the performance of Paragraph vectors (Doc2Vec) against feature vectors that are derived from traditional NLP feature extraction algorithms like Term Frequency-Inverse Document Frequency (TF-IDF). The comparison is based on a 3-class (positive, negative, & neutral) sentiment analysis of tweets and product reviews.
 
@@ -14,7 +14,7 @@ B)Product Reviews
 
 Procedure:
 
-Both datasets are correctly labeled with the correct sentiments. Unwanted attributes and characters will reduce the performance of algorithm on sentiment analysis. So this will be removed by using Python regular expression library. Once the tweets were cleaned, we permutated their order in order to randomize the data and then we split the entire dataset into training and test datasets, with a ratio of 4:1 respectively. After splitting the dataset, we completed the preprocessing step by converting the sentiment labels into numeric values. Specifically, we assigned negative sentiments a value of 0, positive sentiments a value of 1, and neutral sentiments a value of 2. Two python libraries are used for each of our feature extractors: sklearn and gensim. Then for classification, sklearn machine learning library is implemented. Finally, classification report showing the classifier’s recall, precision, and f1-score is generated along with a confusion matrix of its predictions.
+Both datasets are correctly labeled with the correct sentiments. Unwanted attributes and characters will reduce the performance of algorithm on sentiment analysis. So this will be removed by using Python regular expression library. Once the tweets were cleaned, we permutated their order in order to randomize the data and then we split the entire dataset into training and test datasets, with a ratio of 4:1 respectively. After splitting the dataset, we completed the preprocessing step by converting the sentiment labels into numeric values. Specifically, we assigned negative sentiments a value of 0, positive sentiments a value of 1, and neutral sentiments a value of 2. Two python libraries are used for each of our feature extractors: sklearn and gensim. Then for classification, sklearn machine learning library is implemented. Finally, classification report showing the classifierâ€™s recall, precision, and f1-score is generated along with a confusion matrix of its predictions.
 
 
 Instruction to run the code:
